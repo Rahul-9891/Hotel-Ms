@@ -1,0 +1,52 @@
+.Containers{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    margin: 1rem 1rem;
+    /* background-color: #eee; */
+}
+
+#horizontal{
+    overflow-y: auto;
+    width: 550px;
+    height: 300px;
+    /* background-color: aqua; */
+}
+
+.data{
+    margin: 1rem 1rem;
+    /* display: block; */
+    /* background-color: #d9eae4; */
+}
+
+/* .data :hover{
+    background-color: #ccc;
+
+} */
+.data input{
+    padding: 9px 0;
+    border-radius: 5px;
+    border-color: rgb(144, 150, 164);
+    width: 7rem;
+    padding-left: 1rem;
+    color: black;
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-size: small;
+    
+}
+
+.data input:focus {
+    border-color: 10px rgb(54, 54, 179);
+  }
+  
+  
+  .data input:hover {
+    border-color: rgb(61, 61, 239);
+  }
+
+.multi-Head{
+    margin-bottom: 1rem;
+    font-family: "Fredoka";
+}
